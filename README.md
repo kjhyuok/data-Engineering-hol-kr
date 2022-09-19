@@ -11,6 +11,6 @@ Data Engineering Imposition Day에서는 AWS의 데이터 레이크 관점에서
 본 Immersion Day를 수행하면 클라우드 네이티브 및 서버리스 데이터 레이크를 구축하는 데 도움이 될 수 있습니다.
 
 
-## [1.Introduction](./detail/introduction)
+## [1.Introduction](./detail/introduction.md)
 
 
