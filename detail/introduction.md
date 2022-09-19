@@ -4,13 +4,13 @@
 아래의 각 단계별 수행되는 Task는 다음과 같습니다.
 
 ### Initially you will perform Data Ingestion
-![noname](./images/1-1)
+![noname](./images/1-1.png)
 
 ### Perform Data Transformations
-![noname](./images/1-2)
+![noname](./images/1-2.png)
 
 ### Explore the DataLake using SQL and Visualization tools
-![noname](./images/1-3)
+![noname](./images/1-3.png)
 
 ### Finally you will apply Machine Learning
-![noname](./images/1-4)
+![noname](./images/1-4.png)
