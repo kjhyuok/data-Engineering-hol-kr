@@ -5,7 +5,7 @@
 
 ### Initially you will perform Data Ingestion
 ![noname](./images/1-1.png)
-
+![대체 텍스트](./images/intro.png)
 ### Perform Data Transformations
 ![noname](./images/1-2.png)
 
