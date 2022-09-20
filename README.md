@@ -15,6 +15,8 @@
 [*__1.Lab: Setting Lab Account__*](./detail/1.Lab:SettingLabAccount.md) 에서는 AWS에서 제공하는 실습용 Account를 Setting하고 [AWS Web Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_us-west-2_fb2cdefd242e800d&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=_L_92-86xjANu4YyDZwXJj--tPwQK81v471vY05aM08&code_challenge_method=SHA-256)에 접근하여 실습을 할 수 있는 환경을 준비합니다.
 
 
+
+*****  
 ### [0.Introduction](./detail/introduction.md)
 
 ### [1.Lab: Setting Lab Account](./detail/1.Lab:SettingLabAccount.md)
