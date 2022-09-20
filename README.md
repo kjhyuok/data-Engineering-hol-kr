@@ -15,7 +15,7 @@ Data Engineering Imposition Day에서는 AWS의 데이터 레이크 관점에서
 
 ### [0.Introduction](./detail/introduction.md)
 
-### [1.Lab: Setting Lab Account](./detail/settinglabaccount.md)
+### [1.Lab: Setting Lab Account](./detail/1.Lab:SettingLabAccount.md)
 
 ### [2.Lab: Ingestion with DMS](./detail/ingestion.md)
 
