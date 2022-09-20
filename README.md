@@ -11,7 +11,7 @@
 본 Immersion Day를 수행하면 클라우드 네이티브 및 서버리스 데이터 레이크를 구축하는 데 도움이 될 수 있습니다.\
 \
 이 Immersion Day는 크게 3가지의 단계로 이루어져 있으며, 사전에 2개의 단계를 확인 합니다.\
-<U>*0.Introduction*</U>에서는 단계별 실습에서 진행하는 각 Architecture에 대해 기술합니다.\
+<U>0.Introduction</U>에서는 단계별 실습에서 진행하는 각 Architecture에 대해 기술합니다.\
 *1.Lab: Setting Lab Account*에서는 AWS에서 제공하는 실습용 Account를 Setting하고 [AWS Web Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_us-west-2_fb2cdefd242e800d&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=_L_92-86xjANu4YyDZwXJj--tPwQK81v471vY05aM08&code_challenge_method=SHA-256)에 접근하여 실습을 할 수 있는 환경을 준비합니다.
 
 
