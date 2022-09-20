@@ -13,11 +13,11 @@ Data Engineering Imposition Day에서는 AWS의 데이터 레이크 관점에서
 이 HoL은 크게 3가지의 단계로 이루어져 있으며, *1.Introduction*에서는 실습에 필요한 Architecture 설명과 [AWS Web Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_us-west-2_fb2cdefd242e800d&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=_L_92-86xjANu4YyDZwXJj--tPwQK81v471vY05aM08&code_challenge_method=SHA-256)환경을 준비하게 됩니다.
 
 
-## [1.Introduction](./detail/introduction.md)
+### [1.Introduction](./detail/introduction.md)
 
-## [2.Lab: Ingestion with DMS](./detail/ingestion.md)
+### [2.Lab: Ingestion with DMS](./detail/ingestion.md)
 
-## [3.Lab: Transforming data with Glue](./detail/transformingdata.md)
+### [3.Lab: Transforming data with Glue](./detail/transformingdata.md)
 
-## [4.Lab: Query and Visualize](./detail/queryandvisualize.md)
+### [4.Lab: Query and Visualize](./detail/queryandvisualize.md)
 
