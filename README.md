@@ -1,4 +1,4 @@
-# AWS기반 데이터레이크 구성을 위한 Data Engineering HoL
+# AWS기반 데이터레이크 구성을 위한 Data Engineering Immersion Day
 
 기존 [data-Engineering-hol](https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US/)을 한글화 하고, 실습자에게 필요한 부분만 정리하여 구성합니다.
 
