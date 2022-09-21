@@ -23,7 +23,7 @@
 
 ### [2.Lab: Ingestion with DMS](./detail/ingestion.md)
 
-### [3.Lab: Transforming data with Glue](./detail/transformingdata.md)
+### [3.Lab: Transforming data with Glue](./detail/3.Lab:TransformingdatawithGlue.md)
 
 ### [4.Lab: Query and Visualize](./detail/queryandvisualize.md)
 
