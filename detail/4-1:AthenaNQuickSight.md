@@ -15,18 +15,19 @@ Ingestiong with DMS와 Transforming data with Glue ETF 랩을 마치십시오
 1. AWS 콘솔창에서 Athena 검색
 ![AWS 콘솔](../images/aq/aq-1.png)
 
-  <details>
-    <summary> Athena 사용이 처음이라면, 숨겨진 항목들을 수행하십시오</summary>
-    1. Get Started 클릭
-    ![AWS 콘솔](../images/aq/aq-athena-start.png) <br></br>
-    2. 상단의 'set up a query result location in Amazon S3' 클릭
-    ![AWS 콘솔](../images/aq/aq-setups3.png) <br></br>
-    3. <b>Query result location</b>aq-필드의 팝업 윈도우에서 Select 아이콘 클릭.<b> dmslabs3bucket</b> (e.g: dmslab-student-dmslabs3bucket-xg1hdyq60ibs) 선택 후, <b>Select</b> 버튼 선택
-    ![AWS 콘솔](../images/aq/aq-selects3.png)<br></br>
-    4. S3 위치 끝에 <b>athenaquery/</b> 추가 (끝에 "/"를 꼭 넣어주세요!). Save 클릭
-    ![AWS 콘솔](../images/aq/aq-setting.png)
-  </details>
-<br></br>  
+---
+Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 점선칸 내용을 생략하세요
+1. Get Started 클릭
+![AWS 콘솔](../images/aq/aq-athena-start.png)<br></br>  
+2. 상단의 'set up a query result location in Amazon S3' 클릭
+![AWS 콘솔](../images/aq/aq-setups3.png)<br></br>  
+3. <b>Query result location</b>aq-필드의 팝업 윈도우에서 Select 아이콘 클릭.<b> dmslabs3bucket</b> (e.g: dmslab-student-dmslabs3bucket-xg1hdyq60ibs) 선택 후, <b>Select</b> 버튼 선택
+![AWS 콘솔](../images/aq/aq-selects3.png)<br></br>  
+4. S3 위치 끝에 <b>athenaquery/</b> 추가 (끝에 "/"를 꼭 넣어주세요!) Save 클릭
+![AWS 콘솔](../images/aq/aq-setting.png)
+---
+
+
 2. <b>Query Editor</b>에서 최근 생성한 데이터베이스 선택 e.g.,"<b>ticketdata</b>"<br></br>
 3. "<b>parquet_sporting_event_ticket</b>" 테이블을 선택. 주의: id, sporting_event_id, ticketholder_id의 타입이 <b>double</b> 이어야 합니다.<br>
 ![AWS 콘솔](../images/aq/aq-queryeditor.png)<br></br>
@@ -53,7 +54,7 @@ AND e.location_id = l.id;
 Query창 아래에 결과가 보입니다
 ![AWS 콘솔](../images/aq/aq-sql1.png)
 <br></br>
-5. <b>Create - Create view from query</b> 를 클릭해 Create view 창 실행
+5. <b>Create - Create view from query</b> 를 클릭해 Create view 창 실행<br></br>
 6. Name에 sporting_event_info를 입력하고 <b>Create</b> 클릭
 ![AWS 콘솔](../images/aq/aq-view1.png)<br></br>
 생성된 view가 아래와 같이 보입니다
