@@ -27,7 +27,7 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 11. Data source name : <b>ticketdata-qs</b> 입력 후, <b>Validate connection</b> 클릭
 12. <b>Create data source</b> 클릭<br></br>
 ![AWS 콘솔](../images/qs/qs-create-ds1.png)<br></br>
-13. Database 드롭다운 리스트에서 <b>ticketdadta</b> 선택
+13. Database 드롭다운 리스트에서 <b>ticketdata</b> 선택
 14. <b>sporting_event_ticket_info</b> 테이블 선택 후, <b>Select</b> 클릭<br></br>
 ![AWS 콘솔](../images/qs/qs-create-ds2.png)
 <br></br>
@@ -35,5 +35,5 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 만약 사용 가능한 SPICE 용량이 없다면 <b>Directly query your data</b> 선택<br></br>
 ![AWS 콘솔](../images/qs/qs-create-ds3.png)
 <br></br>
-#### 드디어 여러분의 대시보드를 만들 수 있는 QuickSight Visualize interface를 확인할 수 있습니다!!!
+### 드디어 여러분의 대시보드를 만들 수 있는 QuickSight Visualize interface를 확인할 수 있습니다!!!
 ![AWS 콘솔](../images/qs/qs-dashboard.png)
