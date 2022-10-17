@@ -37,4 +37,4 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 ### 드디어 여러분의 대시보드를 만들 수 있는 QuickSight Visualize interface를 확인할 수 있습니다!!!
 ![AWS 콘솔](../images/qs/qs-dashboard.png)
 
-#### 다음 [4-3:QuickSightFunction](../detail/4-2:QuickSightFunction.md)에서 QuickSight의 각종 기능 실습을 시작해 봅니다.🤗
+#### 다음 [4-3:QuickSightFunction](../detail/4-3:QuickSightFunction.md)에서 QuickSight의 각종 기능 실습을 시작해 봅니다.🤗
