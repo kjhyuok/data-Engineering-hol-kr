@@ -12,7 +12,7 @@ Ingestiong with DMS와 Transforming data with Glue ETF 랩을 마치십시오
 2. Amazon QuickSight로 대시보드를 만든다
 
 ## Query Data with Amazon Athena
-1. AWS 콘솔창에서 Athena 검색
+#### 1. AWS 콘솔창에서 Athena 검색
 ![AWS 콘솔](../images/aq/aq-1.png)
 
 ---
@@ -27,11 +27,11 @@ Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 2.�
 ![AWS 콘솔](../images/aq/aq-setting.png)
 ---
 
-2. <b>Query Editor</b>에서 최근 생성한 데이터베이스 선택 e.g.,"<b>ticketdata</b>"<br></br>
-3. "<b>parquet_sporting_event_ticket</b>" 테이블을 선택. 주의: id, sporting_event_id, ticketholder_id의 타입이 <b>double</b> 이어야 합니다.<br>
+#### 2. <b>Query Editor</b>에서 최근 생성한 데이터베이스 선택 e.g.,"<b>ticketdata</b>"<br></br>
+#### 3. "<b>parquet_sporting_event_ticket</b>" 테이블 선택. !주의!: id, sporting_event_id, ticketholder_id의 타입이 <em>double</em> 이어야 합니다.<br>
 ![AWS 콘솔](../images/aq/aq-queryeditor.png)<br></br>
 이제 parquet_sporting_event, parquet_sport_team, parquet_sport_location 테이블을 사용한 query를 실행해볼 것 입니다.<br></br>
-4. 다음 SQL문을 New Query 1 탭에 복사한 후 <b>Run Query</b> 클릭
+#### 4. 다음 SQL문을 New Query 1 탭에 복사한 후 <em>Run Query</em> 클릭
 ``` SQL
 SELECT
 e.id AS event_id,
@@ -53,12 +53,12 @@ AND e.location_id = l.id;
 Query창 아래에 결과가 보입니다
 ![AWS 콘솔](../images/aq/aq-sql1.png)
 <br></br>
-5. <b>Create - Create view from query</b> 를 클릭해 Create view 창 실행<br></br>
-6. Name에 sporting_event_info를 입력하고 <b>Create</b> 클릭
+#### 5. <em>Create - Create view from query</em> 를 클릭해 Create view 창 실행<br></br>
+#### 6. Name에 sporting_event_info를 입력하고 <em>Create</em> 클릭
 ![AWS 콘솔](../images/aq/aq-view1.png)<br></br>
 생성된 view가 아래와 같이 보입니다
 ![AWS 콘솔](../images/aq/aq-view1result.png)<br></br>
-7. 다음 SQL문을 <b>New Query 3</b>탭에 입력
+#### 7. 다음 SQL문을 <em>New Query 3</em>탭에 입력
 ``` sql
 SELECT t.id AS ticket_id,
 e.event_id,
@@ -82,17 +82,18 @@ t.sporting_event_id = e.event_id
 AND t.ticketholder_id = p.id
 ```
 ![AWS 콘솔](../images/aq/aq-sql2.png)<br></br>
-8. <b> Save as </b> 클릭 후, Name : create_view_sporting_event_ticket_info Description에 임의 내용을 입력 후 Save 클릭
+
+#### 8. <em> Save as </em> 클릭 후, Name : create_view_sporting_event_ticket_info Description에 임의 내용을 입력 후 Save 클릭
 ![AWS 콘솔](../images/aq/aq-view2.png)<br></br>
 Query Editor창에서 Query 이름이 바뀐 것을 확인할 수 있습니다.
 <b>Run Query</b> 클릭
 ![AWS 콘솔](../images/aq/aq-runquery.png)<br></br>
 Query창 아래에 결과가 보입니다
 ![AWS 콘솔](../images/aq/aq-runqueryresult.png)
-9. <b>Create - Create view from query</b> 클릭<br></br>
-10. Create view창에서 Name : <b>sporting_event_ticket_info</b> 입력 후 <b>Create</b> 클릭
+#### 9. <em>Create - Create view from query</em> 클릭<br></br>
+#### 10. Create view창에서 Name : <b>sporting_event_ticket_info</b> 입력 후 <b>Create</b> 클릭
 ![AWS 콘솔](../images/aq/aq-createview-seti.png)<br></br>
-11. 다음 SQL문을 New Query 4 탭에 입력
+#### 11. 다음 SQL문을 New Query 4 탭에 입력
 ``` sql
 SELECT
 sport,
@@ -104,7 +105,7 @@ FROM sporting_event_ticket_info
 GROUP BY 1
 ORDER BY 1;
 ```
-<b>Save as</b> 클릭 후 Name : <b>analytics_sporting_event_ticket_info</b>, Description에 임의 내용 입력 후, <b>Save</b> 클릭
+<em>Save as</em> 클릭 후 Name : <b>analytics_sporting_event_ticket_info</b>, Description에 임의 내용 입력 후, <b>Save</b> 클릭
 ![AWS 콘솔](../images/aq/aq-save-aseti.png)
 <br></br>
 New Query 4의 이름이 바뀐 것을 확인할 수 있습니다.<br>
