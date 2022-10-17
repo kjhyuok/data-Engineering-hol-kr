@@ -25,5 +25,4 @@
 
 ### [3.Lab: Transforming data with Glue](./detail/3.Lab:TransformingdatawithGlue.md)
 
-### [4.Lab: Query and Visualize](./detail/queryandvisualize.md)
-
+### [4.Lab: Query and Visualize](./detail/4.Lab:QueryNVisualize.md)
