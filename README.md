@@ -17,12 +17,12 @@
 
 
 *****  
-### [0.Introduction](../detail/introduction.md)
+### [0.Introduction](./detail/introduction.md)
 
-### [1.Lab: Setting Lab Account](../detail/1.Lab:SettingLabAccount.md)
+### [1.Lab: Setting Lab Account](./detail/1.Lab:SettingLabAccount.md)
 
-### [2.Lab: Ingestion with DMS](../detail/ingestion.md)
+### [2.Lab: Ingestion with DMS](./detail/ingestion.md)
 
-### [3.Lab: Transforming data with Glue](../detail/3.Lab:TransformingdatawithGlue.md)
+### [3.Lab: Transforming data with Glue](./detail/3.Lab:TransformingdatawithGlue.md)
 
-### [4.Lab: Query and Visualize](../detail/4.Lab:QueryNVisualize.md)
+### [4.Lab: Query and Visualize](./detail/4.Lab:QueryNVisualize.md)
