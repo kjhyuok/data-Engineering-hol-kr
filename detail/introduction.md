@@ -16,4 +16,4 @@
 ![1-4](https://user-images.githubusercontent.com/105655711/191056429-6afcd88d-5702-44b0-b067-88a44c6701e1.png)
 
 오늘 실습은 위와 같은 각 과정에 대해 순차적으로 진행될 예정 입니다.\
-이제 [1.Lab: Setting Lab Account](./detail/1.Lab:SettingLabAccount.md)에서 본 실습을 위한 AWS Event Account를 생성해 보겠습니다.
+이제 [1.Lab: Setting Lab Account](../detail/1.Lab:SettingLabAccount.md)에서 본 실습을 위한 AWS Event Account를 생성해 보겠습니다.
