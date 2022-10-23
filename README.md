@@ -1,6 +1,8 @@
 # AWS기반 데이터레이크 구성을 위한 Data Engineering Immersion Day
 
-기존 [data-Engineering-hol](https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US/)을 한글화 하고, 실습자에게 필요한 부분만 정리하여 구성합니다.
+기존 AWS의 Workshop인 [**Data Engineering Immersion Day**](https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US/)을 한글화 하고, 실습자에게 필요한 부분만 구성합니다.<br>
+본 Workshop은 3~4시간 정도 소요되며, 활용되는 AWS Resource 목록은 다음과 같습니다.
+* ![AWS DMS](https://aws.amazon.com/ko/dms/), [Amazon S3](https://aws.amazon.com/ko/s3/), [Amazon Glue](https://aws.amazon.com/ko/glue/), [Amazon Athena](https://aws.amazon.com/ko/athena/), [Amazon QuickSight](https://aws.amazon.com/ko/quicksight/)
 
 # Data Engineering Immersion Day 개요
 ![대체 텍스트](./images/intro.png)

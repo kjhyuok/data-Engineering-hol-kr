@@ -1,4 +1,4 @@
-# Lab: Athena and QuickSight
+# Lab: Athena로 query 실행해보기
 
 ## 소개<br>
 Amazon Athena로 DataLake의 데이터에 ad-hoc query를 실행할 수 있습니다.<br>
