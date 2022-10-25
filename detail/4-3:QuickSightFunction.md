@@ -108,4 +108,4 @@ visual을 함께 만들어보고 싶은 여러 사용자들에게 analysis를 �
 -->
 
 Federated Query 기능이 궁금하시다면 다음 실습을 활용해주세요!
-[4-4:Federated Query](4-4:AthenaFederatedQuery.md)
+[4-4:Federated Query](../detail/4-4:AthenaFederatedQuery.md)
