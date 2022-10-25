@@ -11,9 +11,9 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 ![AWS 콘솔](../images/qs/qs-signup2.png)
 #### 5. <b>Create your QuickSight account</b> 페이지에서, QuickSight account name에는 unique한 이름(e.g., quicksight-lab-<initials>-<randomstring>)과 이메일을 입력해야 합니다.<br></br>
 #### 6. 사용중인 AWS 리전을 선택하고 <b>auto discovery, Amazon Athena, Amazon S3</b>를 활성화하도록 체크박스 선택<br></br>
+![AWS 콘솔](../images/qs/qs-signup4.png)
 #### 7. DMS 버킷(e.g., <em>"xxx-dmslabs3bucket-xxx"</em>)선택 후 <em>Finish</em> 클릭<br></br>
 ![AWS 콘솔](../images/qs/qs-signup3.png)
-![AWS 콘솔](../images/qs/qs-signup4.png)
 <br></br>
 #### 8. 상단 오른쪽에 <b>New analysis</b> 클릭<br></br>
 ![AWS 콘솔](../images/qs/qs-start-na.png)

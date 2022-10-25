@@ -47,7 +47,7 @@
 ![AWS 콘솔](../images/qs-func/parameter3.png)<br></br>
 #### 9. 다른 방법으로 <em>EventFrom</em> 파라미터에서 <em>Add control</em> 선택할 수도 있습니다.
 ![AWS 콘솔](../images/qs-func/parameter4.png)<br></br>
-#### 10. Display name으로 Event From을 선택하고 Add 클릭
+#### 10. Display name으로 Event From을 입력하고 Add 클릭
 ![AWS 콘솔](../images/qs-func/parameter5.png)<br></br>
 #### 11. EventTo로 같은 작업을 반복하고 Display name은 <em>Event To</em> 입력
 ![AWS 콘솔](../images/qs-func/parameter6.png)

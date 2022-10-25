@@ -17,13 +17,13 @@ Ingestiong with DMS와 Transforming data with Glue ETF 랩을 마치십시오
 
 ---
 Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 2.로 넘어가세요<br></br>
-(1) Get Started 클릭
+#### (1) Get Started 클릭
 ![AWS 콘솔](../images/aq/aq-athena-start.png)<br></br>  
-(2) 상단의 'set up a query result location in Amazon S3' 클릭
+#### (2) 상단의 'set up a query result location in Amazon S3' 클릭
 ![AWS 콘솔](../images/aq/aq-setups3.png)<br></br>  
-(3) <b>Query result location</b>aq-필드의 팝업 윈도우에서 Select 아이콘 클릭.<b> dmslabs3bucket</b> (e.g: dmslab-student-dmslabs3bucket-xg1hdyq60ibs) 선택 후, <b>Select</b> 버튼 선택
+#### (3) <b>Query result location</b>aq-필드의 팝업 윈도우에서 Select 아이콘 클릭.<p> dmslabs3bucket (e.g: dmslab-student-dmslabs3bucket-xg1hdyq60ibs) 선택 후, <b>Select</b> 버튼 선택
 ![AWS 콘솔](../images/aq/aq-selects3.png)<br></br>  
-(4) S3 위치 끝에 <b>athenaquery/</b> 추가 (끝에 "/"를 꼭 넣어주세요!) Save 클릭
+#### (4) S3 위치 끝에 <b>athenaquery/</b> 추가 (끝에 "/"를 꼭 넣어주세요!) Save 클릭
 ![AWS 콘솔](../images/aq/aq-setting.png)
 ---
 
@@ -53,8 +53,8 @@ AND e.location_id = l.id;
 Query창 아래에 결과가 보입니다
 ![AWS 콘솔](../images/aq/aq-sql1.png)
 <br></br>
-#### 5. <em>Create - Create view from query</em> 를 클릭해 Create view 창 실행<br></br>
-#### 6. Name에 sporting_event_info를 입력하고 <em>Create</em> 클릭
+#### 5. <em>Create - Create view from query</em> 를 클릭해 <em>Create view</em> 창 실행<br></br>
+#### 6. Name에 <em>sporting_event_info</em>를 입력하고 <em>Create</em> 클릭
 ![AWS 콘솔](../images/aq/aq-view1.png)<br></br>
 생성된 view가 아래와 같이 보입니다
 ![AWS 콘솔](../images/aq/aq-view1result.png)<br></br>
@@ -83,7 +83,7 @@ AND t.ticketholder_id = p.id
 ```
 ![AWS 콘솔](../images/aq/aq-sql2.png)<br></br>
 
-#### 8. <em> Save as </em> 클릭 후, Name : create_view_sporting_event_ticket_info Description에 임의 내용을 입력 후 Save 클릭
+#### 8. <em> Save as </em> 클릭 후, Name : <em> create_view_sporting_event_ticket_info</em>, Description에 임의 내용을 입력 후 Save 클릭
 ![AWS 콘솔](../images/aq/aq-view2.png)<br></br>
 Query Editor창에서 Query 이름이 바뀐 것을 확인할 수 있습니다.
 <b>Run Query</b> 클릭
@@ -91,7 +91,7 @@ Query Editor창에서 Query 이름이 바뀐 것을 확인할 수 있습니다.
 Query창 아래에 결과가 보입니다
 ![AWS 콘솔](../images/aq/aq-runqueryresult.png)
 #### 9. <em>Create - Create view from query</em> 클릭<br></br>
-#### 10. Create view창에서 Name : <b>sporting_event_ticket_info</b> 입력 후 <b>Create</b> 클릭
+#### 10. Create view 창에서 Name : <em>sporting_event_ticket_info</em> 입력 후 Create 클릭
 ![AWS 콘솔](../images/aq/aq-createview-seti.png)<br></br>
 #### 11. 다음 SQL문을 New Query 4 탭에 입력
 ``` sql
