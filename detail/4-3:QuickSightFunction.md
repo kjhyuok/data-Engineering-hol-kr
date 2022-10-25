@@ -1,4 +1,4 @@
-# Lab: QuickSight 대시보드 만들기
+# Lab: QuickSight 기능 둘러보기
 
 ## QuickSight 차트 생성
 이 섹션에서 여러 타입의 차트를 만들어 보겠습니다
