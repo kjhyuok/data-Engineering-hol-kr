@@ -47,7 +47,7 @@
 ![AWS 콘솔](../images/qs-func/parameter3.png)<br></br>
 #### 9. 다른 방법으로 <em>EventFrom</em> 파라미터에서 <em>Add control</em> 선택할 수도 있습니다.
 ![AWS 콘솔](../images/qs-func/parameter4.png)<br></br>
-#### 10. Display name으로 Event From을 선택하고 Add 클릭
+#### 10. Display name으로 Event From을 입력하고 Add 클릭
 ![AWS 콘솔](../images/qs-func/parameter5.png)<br></br>
 #### 11. EventTo로 같은 작업을 반복하고 Display name은 <em>Event To</em> 입력
 ![AWS 콘솔](../images/qs-func/parameter6.png)
@@ -69,7 +69,7 @@
 #### 7. <em>End date parameter</em>로 <em>EventTo</em> 선택
 #### 8. <em>Apply</em> 클릭
 ![AWS 콘솔](../images/qs-func/filter3.png)<br></br>
-
+<!--
 ## Calculated Fields 추가
 이번 섹션에서 <b>"day of week" "hour of day"</b>를 계산한 필드 값을 dataset에 추가하고 이 두 종속 변수를 새로운 scatter plot에 추가해보겠습니다.
 
@@ -105,3 +105,7 @@ HH: 날짜에서 시간을 리턴합니다
 이 대시보드에서 다른 사용자들이 visual과 data를 써볼 수 있으나 dataset을 수정할 수는 없습니다.
 visual을 함께 만들어보고 싶은 여러 사용자들에게 analysis를 공유할 수 있습니다. analysis는 다른 dataset을 쓰고 수정할 수 있게 합니다.
 ![AWS 콘솔](../images/qs-func/add-cf5.png)<br></br>
+-->
+
+Federated Query 기능이 궁금하시다면 다음 실습을 활용해주세요!
+[4-4:Federated Query](4-4:AthenaFederatedQuery.md)
