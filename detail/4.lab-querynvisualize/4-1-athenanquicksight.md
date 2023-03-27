@@ -74,16 +74,20 @@ AND e.away_team_id = a.id
 AND e.location_id = l.id;
 ```
 
-Query창 아래에 결과가 보입니다 ![AWS 콘솔](../../images/aq/aq-sql1.png)\
+Query창 아래에 결과가 보입니다.
+
+![AWS 콘솔](../../images/aq/aq-sql1.png)\
 \\
 
 #### 5. _Create - Create view from query_ 를 클릭해 _Create view_ 창 실행
 
-#### 6. Name에 \_sporting\_event\_info\_를 입력하고 _Create_ 클릭
+#### 6. Name에 \_sporting\_event\_info\_를 입력하고 _Create_ 클릭\
 
-![AWS 콘솔](../../images/aq/aq-view1.png)\
+![AWS 콘솔](../../images/aq/aq-view1.png)
 \
-생성된 view가 아래와 같이 보입니다 ![AWS 콘솔](../../images/aq/aq-view1result.png)\
+생성된 view가 아래와 같이 보입니다.
+
+![AWS 콘솔](../../images/aq/aq-view1result.png)
 \\
 
 #### 7. 다음 SQL문을 \_New Query 3\_탭에 입력
@@ -118,7 +122,9 @@ AND t.ticketholder_id = p.id
 
 ![AWS 콘솔](../../images/aq/aq-view2.png)\
 \
-Query Editor창에서 Query 이름이 바뀐 것을 확인할 수 있습니다. Run Query 클릭 ![AWS 콘솔](../../images/aq/aq-runquery.png)\
+Query Editor창에서 Query 이름이 바뀐 것을 확인할 수 있습니다. Run Query 클릭 
+
+![AWS 콘솔](../../images/aq/aq-runquery.png)\
 \
 Query창 아래에 결과가 보입니다 ![AWS 콘솔](../../images/aq/aq-runqueryresult.png)
 
@@ -143,7 +149,9 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
-_Save as_ 클릭 후 Name : analytics\_sporting\_event\_ticket\_info, Description에 임의 내용 입력 후, Save 클릭 ![AWS 콘솔](../../images/aq/aq-save-aseti.png)\
+_Save as_ 클릭 후 Name : analytics\_sporting\_event\_ticket\_info, Description에 임의 내용 입력 후, Save 클릭 
+
+![AWS 콘솔](../../images/aq/aq-save-aseti.png)\
 \
 New Query 4의 이름이 바뀐 것을 확인할 수 있습니다.\
 Run Query 클릭\
