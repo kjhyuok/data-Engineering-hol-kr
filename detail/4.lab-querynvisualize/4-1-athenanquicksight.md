@@ -127,7 +127,7 @@ Query Editor창에서 Query 이름이 바뀐 것을 확인할 수 있습니다. 
 ![AWS 콘솔](../../images/aq/aq-runquery.png)\
 \
 Query창 아래에 결과가 보입니다.
-
+\
 ![AWS 콘솔](../../images/aq/aq-runqueryresult.png)
 
 #### 9. _Create - Create view from query_ 클릭
