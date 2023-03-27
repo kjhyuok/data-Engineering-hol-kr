@@ -1,4 +1,4 @@
-# Lab: Athena로 query 실행해보기
+# Lab4-1: Athena로 query 실행해보기
 
 소개\
 
