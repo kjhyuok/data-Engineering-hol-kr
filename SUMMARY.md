@@ -2,7 +2,6 @@
 
 * [README](README.md)
 * [Workshop Category](detail/README.md)
-  * [Lab: Query and Visualize](detail/4.LabQueryNVisualize.md)
   * [Data Engineering Immersion Day과정 소개](detail/introduction.md)
   * [1.Lab: Setting Lab Account](detail/1.lab-settinglabaccount.md)
   * [2.Lab:IngestionwithDMS](detail/2.labingestionwithdms/README.md)
