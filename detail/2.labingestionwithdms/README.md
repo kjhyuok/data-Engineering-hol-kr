@@ -10,8 +10,6 @@ AWS DMS는 Oracle to Oracle 같은 동종 마이그레이션 뿐만 아니라 Or
 
 이 실습은 데이터 분석을 위한 사전작업으로, AWS DMS 를 활용하여 이미 만들어진 Amazon Relational Database Service (Amazon RDS) Postgres 관계형 데이터베이스로부터 Amazon Simple Storage Service (Amazon S3) 버킷으로 데이터를 마이그레이션하게 됩니다.
 
-![https://static.us-east-1.prod.workshops.aws/public/03be2e95-54e1-4b84-aa89-e115b803304a/static/400/images/30.png](https://static.us-east-1.prod.workshops.aws/public/03be2e95-54e1-4b84-aa89-e115b803304a/static/400/images/30.png)
-
 ***
 
 ## DMS Migration Lab
