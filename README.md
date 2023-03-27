@@ -19,16 +19,16 @@ _Data Engineering Immersion Day_에서는 AWS의 데이터 레이크 관점에�
 \
 이 Immersion Day는 크게 3가지의 단계로 이루어져 있으며, 사전에 2개의 단계를 확인 합니다.\
 [_**0.Introduction**_](detail/introduction.md) 에서는 단계별 실습에서 진행하는 각 Architecture에 대해 기술합니다.\
-[_**1.Lab: Setting Lab Account**_](detail/1.LabSettingLabAccount.md) 에서는 AWS에서 제공하는 실습용 Account를 Setting하고 [AWS Web Console](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB\_us-west-2\_fb2cdefd242e800d\&client\_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas\&forceMobileApp=0\&code\_challenge=\_L\_92-86xjANu4YyDZwXJj--tPwQK81v471vY05aM08\&code\_challenge\_method=SHA-256)에 접근하여 실습을 할 수 있는 환경을 준비합니다.
+[_**1.Lab: Setting Lab Account**_](detail/1.lab-settinglabaccount.md) 에서는 AWS에서 제공하는 실습용 Account를 Setting하고 [AWS Web Console](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB\_us-west-2\_fb2cdefd242e800d\&client\_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas\&forceMobileApp=0\&code\_challenge=\_L\_92-86xjANu4YyDZwXJj--tPwQK81v471vY05aM08\&code\_challenge\_method=SHA-256)에 접근하여 실습을 할 수 있는 환경을 준비합니다.
 
 ***
 
 #### [0.Introduction](detail/introduction.md)
 
-#### [1.Lab: Setting Lab Account](detail/1.LabSettingLabAccount.md)
+#### [1.Lab: Setting Lab Account](detail/1.lab-settinglabaccount.md)
 
-#### [2.Lab: Ingestion with DMS](detail/2.LabIngestionwithDMS.md)
+#### [2.Lab: Ingestion with DMS](detail/2.labingestionwithdms/)
 
-#### [3.Lab: Transforming data with Glue](detail/3.LabTransformingdatawithGlue.md)
+#### [3.Lab: Transforming data with Glue](detail/3.labtransformingdatawithglue/)
 
-#### [4.Lab: Query and Visualize](detail/4.LabQueryNVisualize.md)
+#### [4.Lab: Query and Visualize](detail/4.lab-querynvisualize/)

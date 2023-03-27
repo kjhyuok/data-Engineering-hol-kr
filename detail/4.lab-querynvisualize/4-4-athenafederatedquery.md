@@ -1,4 +1,4 @@
-# Lab: Athena Federated Query
+# Lab4-4: Athena Federated Query
 
 ## Athena에서 RDS Query 실행해보기
 
@@ -22,25 +22,25 @@ Athena Federated Query Connector를 위한 SubnetId\[Amazon VPC Subnet 콘솔의
 
 #### 2. Athena 콘솔에서 상단 왼쪽에 있는 3줄모양 아이콘을 클릭해 내비게이션바를 열고 "Data sources" 클릭
 
-![AWS 콘솔](../images/qs-fq/fq-step1.png)
+![AWS 콘솔](../../images/qs-fq/fq-step1.png)
 
-![AWS 콘솔](../images/qs-fq/fq-step2.png)
+![AWS 콘솔](../../images/qs-fq/fq-step2.png)
 
 #### 3. Data sources 페이지에서 _Connect data source_ 클릭
 
-![AWS 콘솔](../images/qs-fq/fq-step3.png)
+![AWS 콘솔](../../images/qs-fq/fq-step3.png)
 
 #### 4. 아래 스크린샷처럼 데이터 소스로 _PostgreSQL_ 선택
 
-![AWS 콘솔](../images/qs-fq/fq-step4.png)
+![AWS 콘솔](../../images/qs-fq/fq-step4.png)
 
 #### 5. _Data source datailes_ 아래에 Data source name에 _Postgres\_DB_ 입력
 
-![AWS 콘솔](../images/qs-fq/fq-step5.png)
+![AWS 콘솔](../../images/qs-fq/fq-step5.png)
 
 #### 6. _Lambda function_ 아래에 'Create a new function'을 선택하고 _Create a new Lambda function in AWS Lambda botton_을 클릭해 AWS Lambda 콘솔 열기
 
-![AWS 콘솔](../images/qs-fq/fq-step6.png)
+![AWS 콘솔](../../images/qs-fq/fq-step6.png)
 
 #### 7. 캡쳐된 사진과 아래 정보를 입력하고 _Deploy_ 클릭
 
@@ -58,25 +58,25 @@ Athena Federated Query Connector를 위한 SubnetId\[Amazon VPC Subnet 콘솔의
 | SpillPrefix             | athena-spill-bucket                                                                                                                                                                                                                 |
 | SubnetIds               | 사전 준비사항의 SubnetId                                                                                                                                                                                                                   |
 
-![AWS 콘솔](../images/qs-fq/fq-step7.png)
+![AWS 콘솔](../../images/qs-fq/fq-step7.png)
 
 #### 8. Athena 창으로 돌아와 _Choose or enter a Lambda functio_옆의 새로고침 버튼을 클릭한다.새로 배포된 Lambda 함수를 선택하고 'Connect data source' 선택
 
-![AWS 콘솔](../images/qs-fq/fq-step8.png)
+![AWS 콘솔](../../images/qs-fq/fq-step8.png)
 
 #### 9. 함수가 배포되면, 함수를 선택하고 _Configuration_에서 _Environment variables_ - _Edit_ 선택.새 Environment variable로 _Postgres\_DB\_connection\_string_ 키를 추가하고 value로 _default_ 키의 Value 값을 복사
 
-![AWS 콘솔](../images/qs-fq/fq-step9.png)
+![AWS 콘솔](../../images/qs-fq/fq-step9.png)
 
-![AWS 콘솔](../images/qs-fq/fq-step10.png)
+![AWS 콘솔](../../images/qs-fq/fq-step10.png)
 
 #### 10. 새 data source가 보이는지 확인
 
-![AWS 콘솔](../images/qs-fq/fq-step11.png)
+![AWS 콘솔](../../images/qs-fq/fq-step11.png)
 
 #### 11. _Query editor_로 돌아와 새로운 Data Source(Postgres\_DB)를 선택하고 데이터베이스(dms\_sample)이 보이는지 확인
 
-![AWS 콘솔](../images/qs-fq/fq-step12.png)
+![AWS 콘솔](../../images/qs-fq/fq-step12.png)
 
 #### 12. 이 예제에서는 Postgres data source에서 "sport\_location", 데이터레이크에서 "parquet\_sporting\_event" 테이블을 사용할 것입니다.
 
@@ -91,4 +91,4 @@ GROUP BY loc.city
 ORDER BY loc.city ASC;
 ```
 
-![AWS 콘솔](../images/qs-fq/fq-step13.png)
+![AWS 콘솔](../../images/qs-fq/fq-step13.png)
