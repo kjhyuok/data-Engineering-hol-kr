@@ -4,11 +4,9 @@
 
 #### 1. AWS 콘솔창에서 QuickSight 검색
 
-![AWS 콘솔](../../images/qs/qs-console.png)\
-\
-QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료해 주십시오.\
-\
+![AWS 콘솔](../../images/qs/qs-console.png)
 
+QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료해 주십시오.
 
 #### 2. _Sign up for QuickSight_ 클릭  
 
@@ -28,21 +26,15 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 
 #### 7. DMS 버킷(e.g., _"xxx-dmslabs3bucket-xxx"_)선택 후 _Finish_ 클릭  
 
-![AWS 콘솔](../../images/qs/qs-signup3.png)\
-\
-
+![AWS 콘솔](../../images/qs/qs-signup3.png)
 
 #### 8. 상단 오른쪽에 New analysis 클릭  
 
-![AWS 콘솔](../../images/qs/qs-start-na.png)\
-\
-
+![AWS 콘솔](../../images/qs/qs-start-na.png)
 
 #### 9. New Data Set 클릭  
 
-![AWS 콘솔](../../images/qs/qs-start-ds.png)\
-\
-
+![AWS 콘솔](../../images/qs/qs-start-ds.png)
 
 #### 10. Create a Dataset페이지에서 Data source로 Athena 선택  
 
@@ -52,9 +44,7 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 
 #### 12. Create data source 클릭  
 
-![AWS 콘솔](../../images/qs/qs-create-ds1.png)\
-\
-
+![AWS 콘솔](../../images/qs/qs-create-ds1.png)
 
 #### 13. Database 드롭다운 리스트에서 ticketdata 선택
 
@@ -64,11 +54,9 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 
 #### 15. Import to SPICE for quicker analytics옵션 선택 후 Visualize 클릭
 
-만약 사용 가능한 SPICE 용량이 없다면 Directly query your data 선택\
-\
-![AWS 콘솔](../../images/qs/qs-create-ds3.png)\
-\
+만약 사용 가능한 SPICE 용량이 없다면 Directly query your data 선택
 
+![AWS 콘솔](../../images/qs/qs-create-ds3.png)
 
 ### 드디어 여러분의 대시보드를 만들 수 있는 QuickSight Visualize interface를 확인할 수 있습니다!!!
 
