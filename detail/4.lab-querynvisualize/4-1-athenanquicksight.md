@@ -1,6 +1,6 @@
 # Lab4-1: Athena로 query 실행해보기
 
-소개\
+소개
 
 Amazon Athena로 DataLake의 데이터에 ad-hoc query를 실행할 수 있습니다.\
 Amazon QuickSight는 import한 데이터의 시각화 기능을 담당합니다.
@@ -22,7 +22,7 @@ Ingestiong with DMS와 Transforming data with Glue ETF 랩을 마치십시오
 
 ***
 
-Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 2.로 넘어가세요\
+Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 2.로 넘어가세요
 
 #### (1) Get Started 클릭
 
@@ -38,7 +38,7 @@ Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 2.�
 
 #### (4) S3 위치 끝에 athenaquery/ 추가 (끝에 "/"를 꼭 넣어주세요!) Save 클릭
 
-## ![AWS 콘솔](../../images/aq/aq-setting.png)
+![AWS 콘솔](../../images/aq/aq-setting.png)
 
 #### 2. Query Editor에서 최근 생성한 데이터베이스 선택 e.g.,"ticketdata"
 
@@ -75,7 +75,7 @@ Query창 아래에 결과가 보입니다.
 
 #### 5. _Create - Create view from query_ 를 클릭해 _Create view_ 창 실행
 
-#### 6. Name에 \_sporting\_event\_info\_를 입력하고 _Create_ 클릭\
+#### 6. Name에 \_sporting\_event\_info\_를 입력하고 _Create_ 클릭
 
 ![AWS 콘솔](../../images/aq/aq-view1.png)
 
@@ -83,7 +83,7 @@ Query창 아래에 결과가 보입니다.
 
 ![AWS 콘솔](../../images/aq/aq-view1result.png)
 
-#### 7. 다음 SQL문을 \_New Query 3\_탭에 입력
+#### 7. 다음 SQL문을 New Query 3 탭에 입력
 
 ```sql
 SELECT t.id AS ticket_id,
