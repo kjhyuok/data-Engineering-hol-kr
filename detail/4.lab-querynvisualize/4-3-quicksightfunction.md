@@ -14,14 +14,12 @@
 * 이 레이아웃은 X-axis 값이 필요합니다. Fields list에서, event\_date\_time를 선택하면 그래프가 업데이트됩니다.
 * Y-axis로 Fields list에서 ticket\_price 선택
 
-![AWS 콘솔](../../images/qs-func/chart1.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/chart1.png)
 
 #### 4. 대시보드에 필드를 드래그해 가져올 수도 있습니다. Field list에서 _seat\_level_을 클릭하고 _Group/Color_박스로 드래그하세요.
 
-![AWS 콘솔](../../images/qs-func/chart2.png)\
-\
+![AWS 콘솔](../../images/qs-func/chart2.png)
+
 차트 타입을 바꿔봅시다
 
 #### 5. Visual types에서 _Clustered bar combo chart_ 선택
@@ -34,15 +32,9 @@
 
 #### 8. 왼쪽 탭 섹션에서 _insight_아이콘을 클릭해 간단한 인사이트 정보를 확인해볼 수 있습니다
 
-![AWS 콘솔](../../images/qs-func/chart4.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/chart4.png)
 
 ### 다양한 차트 타입과 필드로 차트를 테스트해보세요!!
-
-\
-\
-
 
 ## QuickSight Parameters 생성
 
@@ -64,9 +56,7 @@
 
 #### 7. _Create_ 클릭
 
-![AWS 콘솔](../../images/qs-func/parameter2.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/parameter2.png)
 
 #### 8. 아래 속성들로 파라미터를 하나 더 생성
 
@@ -80,31 +70,23 @@
 
 **- Create 클릭**
 
-![AWS 콘솔](../../images/qs-func/parameter3.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/parameter3.png)
 
 #### 9. 다른 방법으로 _EventFrom_ 파라미터에서 _Add control_ 선택할 수도 있습니다.
 
-![AWS 콘솔](../../images/qs-func/parameter4.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/parameter4.png)
 
 #### 10. Display name으로 Event From을 입력하고 Add 클릭
 
-![AWS 콘솔](../../images/qs-func/parameter5.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/parameter5.png)
 
 #### 11. EventTo로 같은 작업을 반복하고 Display name은 _Event To_ 입력
 
-![AWS 콘솔](../../images/qs-func/parameter6.png)\
-\
-이제 위 차트에서 지정된 파라미터 조건에 따라 변경된 차트를 확인할 수 있습니다.\
-\
-![AWS 콘솔](../../images/qs-func/parameter7.png)\
-\
+![AWS 콘솔](../../images/qs-func/parameter6.png)
 
+이제 위 차트에서 지정된 파라미터 조건에 따라 변경된 차트를 확인할 수 있습니다.
+
+![AWS 콘솔](../../images/qs-func/parameter7.png)
 
 ## QuickSight Filter 생성
 
@@ -114,15 +96,11 @@
 
 #### 2. + 아이콘을 선택해 _event\_date\_time_필드에 대한 filter 추가
 
-![AWS 콘솔](../../images/qs-func/filter1.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/filter1.png)
 
 #### 3. 속성을 수정하기 위해 filter 선택
 
-![AWS 콘솔](../../images/qs-func/filter2.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/filter2.png)
 
 #### 4. Filter type으로 _Date & Time range_rhk _Between_ 선택
 
@@ -134,8 +112,6 @@
 
 #### 8. _Apply_ 클릭
 
-![AWS 콘솔](../../images/qs-func/filter3.png)\
-\
-
+![AWS 콘솔](../../images/qs-func/filter3.png)
 
 Federated Query 기능이 궁금하시다면 다음 실습을 활용해주세요! [4-4:Federated Query](4-4-athenafederatedquery.md)
