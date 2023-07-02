@@ -1,4 +1,4 @@
-# 2.Lab:IngestionwithDMS
+# 2.Lab:Ingestion with DMS
 
 ## 2.Lab: Ingestion with DMS
 
