@@ -26,13 +26,3 @@
 > kjhyuok@amazon.com(JongHyuok, Kim)
 
 ***
-
-#### [0.Introduction](detail/introduction.md)
-
-#### [1.Lab: Setting Lab Account](detail/1.lab-settinglabaccount.md)
-
-#### [2.Lab: Ingestion with DMS](2.labingestionwithdms/)
-
-#### [3.Lab: Transforming data with Glue](detail/3.labtransformingdatawithglue)
-
-#### [4.Lab: Query and Visualize](detail/4.lab-querynvisualize)
