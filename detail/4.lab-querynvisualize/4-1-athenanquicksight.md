@@ -14,7 +14,7 @@ Ingestiong with DMS와 Transforming data with Glue ETF 랩을 마치십시오
 1. Amazon Athena로 데이터에 query를 실행하고 view를 생성한다
 2. Amazon QuickSight로 대시보드를 만든다
 
-## Query Data with Amazon Athena
+## Query Data with Amazon Athena(최근 UI가 일부 변경되어 있으니 강사의 설명에 집중해 주세요.)
 
 #### 1. AWS 콘솔창에서 Athena 검색
 
