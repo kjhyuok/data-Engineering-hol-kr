@@ -1,6 +1,6 @@
 # Lab4-2: QuickSight 대시보드 만들기
 
-## QuickSight 세팅
+## QuickSight 세팅(일부 UI변경되었으니 강사의 설명에 집중해주세요.)
 
 #### 1. AWS 콘솔창에서 QuickSight 검색
 
