@@ -31,7 +31,7 @@
 
 #### [1.Lab: Setting Lab Account](detail/1.lab-settinglabaccount.md)
 
-#### [2.Lab: Ingestion with DMS](detail/2.labingestionwithdms)
+#### [2.Lab: Ingestion with DMS](2.labingestionwithdms/)
 
 #### [3.Lab: Transforming data with Glue](detail/3.labtransformingdatawithglue)
 
