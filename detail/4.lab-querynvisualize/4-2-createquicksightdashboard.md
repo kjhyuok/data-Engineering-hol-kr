@@ -40,7 +40,7 @@ QuickSight 사용이 처음이면, 계정 생성 절차가 실행되니 완료�
 
 ![AWS 콘솔](../../images/qs/qs-start-ds2.png)
 
-#### 11. Data source name : ticketdata-qs 입력 후, Validate connection 클릭
+#### 11. Data source name : ```ticketdata-qs``` 입력 후, Validate connection 클릭
 
 #### 12. Create data source 클릭  
 
