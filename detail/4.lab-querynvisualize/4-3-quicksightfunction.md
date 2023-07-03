@@ -52,7 +52,7 @@
 
 #### 5. Time granularity에 _Hourly_ 선택
 
-#### 6. Default value로 _event\_date\_time_의 범위에서 시작 날짜로 가능한 날짜 선택. 예) 2021-01-01 00:00
+#### 6. Default value로 *event_date_time*의 범위에서 시작 날짜로 가능한 날짜 선택. 예) 2021-01-01 00:00
 
 #### 7. _Create_ 클릭
 
