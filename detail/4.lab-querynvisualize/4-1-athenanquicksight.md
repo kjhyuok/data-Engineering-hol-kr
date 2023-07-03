@@ -110,7 +110,7 @@ AND t.ticketholder_id = p.id
 
 ![AWS 콘솔](../../images/aq/aq-sql2.png)
 
-#### 8.Query Editor탭에서 ...(점3개) 클릭 후 Save as 선택, Name : ```create\_view\_sporting\_event\_ticket\_info```, Description에 임의 내용을 입력 후 Save 클릭
+#### 8.Query Editor탭에서 ...(점3개) 클릭 후 Save as 선택, Name : ```create_view_sporting_event_ticket_info```, Description에 임의 내용을 입력 후 Save 클릭
 
 ![AWS 콘솔](../../images/aq/aq-view2.png)
 
