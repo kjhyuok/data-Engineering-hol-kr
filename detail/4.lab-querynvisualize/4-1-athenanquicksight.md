@@ -75,7 +75,7 @@ Query창 아래에 결과가 보입니다.
 
 #### 5. _Create - Create view from query_ 를 클릭해 _Create view_ 창 실행
 
-#### 6. Name에 \_sporting\_event\_info\_를 입력하고 _Create_ 클릭
+#### 6. Name에 ```sporting_event_info```를 입력하고 _Create_ 클릭
 
 ![AWS 콘솔](../../images/aq/aq-view1.png)
 
@@ -110,7 +110,7 @@ AND t.ticketholder_id = p.id
 
 ![AWS 콘솔](../../images/aq/aq-sql2.png)
 
-#### 8. _Save as_ 클릭 후, Name : _create\_view\_sporting\_event\_ticket\_info_, Description에 임의 내용을 입력 후 Save 클릭
+#### 8.Query Editor탭에서 ...(점3개) 클릭 후 Save as 선택, Name : ```create\_view\_sporting\_event\_ticket\_info```, Description에 임의 내용을 입력 후 Save 클릭
 
 ![AWS 콘솔](../../images/aq/aq-view2.png)
 
@@ -124,7 +124,7 @@ Query창 아래에 결과가 보입니다.
 
 #### 9. _Create - Create view from query_ 클릭
 
-#### 10. Create view 창에서 Name : _sporting\_event\_ticket\_info_ 입력 후 Create 클릭
+#### 10. Create view 창에서 Name : ```sporting_event_ticket_info``` 입력 후 Create 클릭
 
 ![AWS 콘솔](../../images/aq/aq-createview-seti.png)
 
@@ -142,7 +142,7 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
-_Save as_ 클릭 후 Name : analytics\_sporting\_event\_ticket\_info, Description에 임의 내용 입력 후, Save 클릭 
+위와 동일하게 점3개 클릭 후 _Save as_ 클릭, Name : ```analytics_sporting_event_ticket_info```, Description에 임의 내용 입력 후, Save 클릭 
 
 ![AWS 콘솔](../../images/aq/aq-save-aseti.png)
 
