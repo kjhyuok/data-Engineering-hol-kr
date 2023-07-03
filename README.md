@@ -31,8 +31,8 @@
 
 #### [1.Lab: Setting Lab Account](detail/1.lab-settinglabaccount.md)
 
-#### [2.Lab: Ingestion with DMS](detail/2.labingestionwithdms/)
+#### [2.Lab: Ingestion with DMS](detail/2.labingestionwithdms)
 
-#### [3.Lab: Transforming data with Glue](detail/3.labtransformingdatawithglue/)
+#### [3.Lab: Transforming data with Glue](detail/3.labtransformingdatawithglue)
 
-#### [4.Lab: Query and Visualize](detail/4.lab-querynvisualize/)
+#### [4.Lab: Query and Visualize](detail/4.lab-querynvisualize)
