@@ -23,7 +23,7 @@ _Data Engineering Immersion Day_에서는 AWS의 데이터 레이크 관점에�
 
 ## Info
 > 본 Workshop에 오류가 있거나 AWS Console ui가 업데이트 되어 맞지 않는 부분이 있으면 작성자에게 메일 부탁드립니다.
-> #### kjhyuok@amazon.com(JongHyuok, Kim)
+> kjhyuok@amazon.com(JongHyuok, Kim)
 
 ***
 
