@@ -4,9 +4,9 @@
 
 이 섹션에서 여러 타입의 차트를 만들어 보겠습니다
 
-#### 1. _Fields list_에서 _ticket\_price_ 컬럼을 클릭
+#### 1. *Fields list*에서 _ticket\_price_ 컬럼을 클릭
 
-#### 2. _ticket\_price_필드의 expand icon을 클릭하고, 숫자를 달러값으로 표시하기 위해 _Show as Currency_ 선택
+#### 2. *ticket\_price*필드의 expand icon을 클릭하고, 숫자를 달러값으로 표시하기 위해 _Show as Currency_ 선택
 
 #### 3. 화면 왼쪽 상단에 있는 _Add_ 을 클릭 후, add visual 할 수 있습니다.
 
@@ -16,7 +16,7 @@
 
 ![AWS 콘솔](../../images/qs-func/chart1.png)
 
-#### 4. 대시보드에 필드를 드래그해 가져올 수도 있습니다. Field list에서 _seat\_level_을 클릭하고 _Group/Color_박스로 드래그하세요.
+#### 4. 대시보드에 필드를 드래그해 가져올 수도 있습니다. Field list에서 *seat_level*을 클릭하고 *Group/Color*박스로 드래그하세요.
 
 ![AWS 콘솔](../../images/qs-func/chart2.png)
 
@@ -24,13 +24,13 @@
 
 #### 5. Visual types에서 _Clustered bar combo chart_ 선택
 
-#### 6. Field list에서 _ticketholder_필드를 _Lines_박스로 드래그
+#### 6. Field list에서 *ticketholder*필드를 *Lines*박스로 드래그
 
-#### 7. _Lines_박스에서, 드롭다운박스 클릭해 Aggregate을 위해 _Aggregate: Count Distinc_선택. 오른쪽에서 y-axis에 업데이트를 확인할 수 있습니다.
+#### 7. *Lines*박스에서, 드롭다운박스 클릭해 Aggregate을 위해 *Aggregate: Count Distinc*선택. 오른쪽에서 y-axis에 업데이트를 확인할 수 있습니다.
 
 ![AWS 콘솔](../../images/qs-func/chart3.png)
 
-#### 8. 왼쪽 탭 섹션에서 _insight_아이콘을 클릭해 간단한 인사이트 정보를 확인해볼 수 있습니다
+#### 8. 왼쪽 탭 섹션에서 *insight*아이콘을 클릭해 간단한 인사이트 정보를 확인해볼 수 있습니다
 
 ![AWS 콘솔](../../images/qs-func/chart4.png)
 
@@ -66,7 +66,7 @@
 
 **- Time granularity, Hourly**
 
-**- Default value로 **_**event\_date\_time**_**의 범위에서 종료 날짜로 가능한 날짜 선택. 예) 20222-01-01 00:00**
+**- Default value로 *event_date_time*의 범위에서 종료 날짜로 가능한 날짜 선택. 예) 20222-01-01 00:00**
 
 **- Create 클릭**
 
@@ -94,7 +94,7 @@
 
 #### 1. 왼쪽 네비게이션 메뉴에서 Filter 선택
 
-#### 2. + 아이콘을 선택해 _event\_date\_time_필드에 대한 filter 추가
+#### 2. + 아이콘을 선택해 *event_date_time*필드에 대한 filter 추가
 
 ![AWS 콘솔](../../images/qs-func/filter1.png)
 
@@ -102,13 +102,13 @@
 
 ![AWS 콘솔](../../images/qs-func/filter2.png)
 
-#### 4. Filter type으로 _Date & Time range_rhk _Between_ 선택
+#### 4. Filter type으로 *Date & Time range*와 *Between* 선택
 
-#### 5. _Use Parameters_ 옵션 선택 후 _Yes_ 클릭
+#### 5. *Use Parameters* 옵션 선택 후 _Yes_ 클릭
 
-#### 6. _Start date parameter_로 _EventFrom_ 선택
+#### 6. *Start date parameter*로 _EventFrom_ 선택
 
-#### 7. _End date parameter_로 _EventTo_ 선택
+#### 7. *End date parameter*로 _EventTo_ 선택
 
 #### 8. _Apply_ 클릭
 
