@@ -18,7 +18,7 @@ Ingestiong with DMS와 Transforming data with Glue ETF 랩을 마치십시오
 
 #### 1. AWS 콘솔창에서 Athena 검색
 
-![AWS 콘솔](../../images/aq/aq-1.png)
+![AWS 콘솔](../../images/aq/aq-1-console.png)
 
 ***
 
