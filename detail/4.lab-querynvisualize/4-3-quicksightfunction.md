@@ -8,11 +8,11 @@
 
 #### 2. *ticket\_price*필드의 expand icon을 클릭하고, 숫자를 달러값으로 표시하기 위해 _Show as Currency_ 선택
 
-#### 3. 화면 왼쪽 상단에 있는 _Add_ 을 클릭 후, add visual 할 수 있습니다.
+#### 3. 화면 왼쪽 상단에 있는 _Add_ 을 클릭 후, Add visual 할 수 있습니다.
 
 * Data set 아래 Visual types 에서 Vertical bar chart 아이콘 선택
 * 이 레이아웃은 X-axis 값이 필요합니다. Fields list에서, event\_date\_time를 선택하면 그래프가 업데이트됩니다.
-* Y-axis로 Fields list에서 ticket\_price 선택
+* Value로 Fields list에서 ticket\_price 선택
 
 ![AWS 콘솔](../../images/qs-func/chart1.png)
 
@@ -50,7 +50,7 @@
 
 #### 4. Data type에 _Datetime_ 선택
 
-#### 5. Time granularity에 _Hourly_ 선택
+#### 5. Time granularity에 _Hour_ 선택
 
 #### 6. Default value로 *event_date_time*의 범위에서 시작 날짜로 가능한 날짜 선택. 예) 2021-01-01 00:00
 
@@ -66,7 +66,7 @@
 
 **- Time granularity, Hourly**
 
-**- Default value로 *event_date_time*의 범위에서 종료 날짜로 가능한 날짜 선택. 예) 20222-01-01 00:00**
+**- Default value로 *event_date_time*의 범위에서 종료 날짜로 가능한 날짜 선택. 예) 2022-01-01 00:00**
 
 **- Create 클릭**
 
@@ -94,11 +94,11 @@
 
 #### 1. 왼쪽 네비게이션 메뉴에서 Filter 선택
 
-#### 2. + 아이콘을 선택해 *event_date_time*필드에 대한 filter 추가
+#### 2. ADD FILTER를 클릭해 *event_date_time*필드에 대한 filter 추가
 
 ![AWS 콘솔](../../images/qs-func/filter1.png)
 
-#### 3. 속성을 수정하기 위해 filter 선택
+#### 3. 속성을 수정하기 위해 event_date_time(필터) 선택
 
 ![AWS 콘솔](../../images/qs-func/filter2.png)
 

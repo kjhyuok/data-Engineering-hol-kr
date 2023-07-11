@@ -28,11 +28,11 @@ Athena 사용이 처음이라면, 아래 항목을 수행하시고 아니면 2.�
 
 ![AWS 콘솔](../../images/aq/aq-athena-start.png)
 
-#### (2) 상단의 'set up a query result location in Amazon S3' 클릭
+#### (2) 상단의 'Edit settings' 클릭
 
 ![AWS 콘솔](../../images/aq/aq-setups3.png)
 
-#### (3) Query result locationaq-필드의 팝업 윈도우에서 Select 아이콘 클릭.dmslabs3bucket (e.g: dmslab-student-dmslabs3bucket-xg1hdyq60ibs) 선택 후, Select 버튼 선택
+#### (3) Query result location and encryption 필드의 팝업 윈도우에서 Browse S3 아이콘 클릭.dmslabs3bucket (e.g: dmslab-student-dmslabs3bucket-xg1hdyq60ibs) 선택 후, Select 버튼 선택
 
 ![AWS 콘솔](../../images/aq/aq-selects3.png)
 
@@ -73,7 +73,7 @@ Query창 아래에 결과가 보입니다.
 
 ![AWS 콘솔](../../images/aq/aq-sql1.png)
 
-#### 5. _Create - Create view from query_ 를 클릭해 _Create view_ 창 실행
+#### 5. _Create - View from query_ 를 클릭해 _Create view_ 창 실행
 
 #### 6. Name에 ```sporting_event_info```를 입력하고 _Create_ 클릭
 
@@ -110,7 +110,7 @@ AND t.ticketholder_id = p.id
 
 ![AWS 콘솔](../../images/aq/aq-sql2.png)
 
-#### 8.Query Editor탭에서 ...(점3개) 클릭 후 Save as 선택, Name : ```create_view_sporting_event_ticket_info```, Description에 임의 내용을 입력 후 Save 클릭
+#### 8.Query Editor탭에서 ...(점3개) 클릭 후 Save as 선택, Name : ```create_view_sporting_event_ticket_info```, Description에 임의 내용을 입력 후 Save query 클릭
 
 ![AWS 콘솔](../../images/aq/aq-view2.png)
 
@@ -122,7 +122,7 @@ Query창 아래에 결과가 보입니다.
 
 ![AWS 콘솔](../../images/aq/aq-runqueryresult.png)
 
-#### 9. _Create - Create view from query_ 클릭
+#### 9. _Create - View from query_ 클릭
 
 #### 10. Create view 창에서 Name : ```sporting_event_ticket_info``` 입력 후 Create 클릭
 
@@ -142,7 +142,7 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
-위와 동일하게 점3개 클릭 후 _Save as_ 클릭, Name : ```analytics_sporting_event_ticket_info```, Description에 임의 내용 입력 후, Save 클릭 
+위와 동일하게 점3개 클릭 후 _Save as_ 클릭, Name : ```analytics_sporting_event_ticket_info```, Description에 임의 내용 입력 후, Save query 클릭 
 
 ![AWS 콘솔](../../images/aq/aq-save-aseti.png)
 
