@@ -64,7 +64,7 @@
 
 **- Data type: Datetime**
 
-**- Time granularity, Hourly**
+**- Time granularity, Hour**
 
 **- Default value로 *event_date_time*의 범위에서 종료 날짜로 가능한 날짜 선택. 예) 2022-01-01 00:00**
 
