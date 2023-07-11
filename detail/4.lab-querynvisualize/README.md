@@ -8,7 +8,7 @@
 
 이제 본격적으로 실습을 시작해봅시다!
 
-[4-1:Athena and QuickSight - Execute Query using Athena](4-1-athenanquicksight.md)
+[4-1:Athena and QuickSight - Execute Query using Athena](4-1-athena-quicksight.md)
 
 [4-2:Athena and QuickSight - Create QuickSight Dashboard](4-2-createquicksightdashboard.md)
 
