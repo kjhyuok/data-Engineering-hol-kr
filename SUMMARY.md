@@ -18,3 +18,4 @@
     * [Lab4-2: QuickSight 대시보드 만들기](detail/4.lab-querynvisualize/4-2-createquicksightdashboard.md)
     * [Lab4-3: QuickSight 기능 둘러보기](detail/4.lab-querynvisualize/4-3-quicksightfunction.md)
     * [Lab4-4: Athena Federated Query](detail/4.lab-querynvisualize/4-4-athenafederatedquery.md)
+    * [Test](4-1-test-athenanquicksight.md)
