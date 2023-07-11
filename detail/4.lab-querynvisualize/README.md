@@ -15,3 +15,5 @@
 [4-3:Athena and QuickSight - QuickSight functions](4-3-quicksightfunction.md)
 
 [4-4:Athena and QuickSight - Athena Federated Query](4-4-athenafederatedquery.md)
+
+[Test](4-1-test-athenanquicksight.md)
