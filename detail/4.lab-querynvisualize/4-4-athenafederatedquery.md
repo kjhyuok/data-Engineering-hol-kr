@@ -26,7 +26,7 @@ Athena Federated Query Connector를 위한 SubnetId\[Amazon VPC Subnet 콘솔의
 
 ![AWS 콘솔](../../images/qs-fq/fq-step2.png)
 
-#### 3. Data sources 페이지에서 _Connect data source_ 클릭
+#### 3. Data sources 페이지에서 _Create data source_ 클릭
 
 ![AWS 콘솔](../../images/qs-fq/fq-step3.png)
 
