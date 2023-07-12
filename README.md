@@ -23,9 +23,9 @@
 
 #### AWS 강사님의 준비사항(중요!)
 
-이 워크샵은 On-premise로 가정한 별도 VPC 환경에서 PostgreSQL DB를 AWS DMS를 통해 마이그레이션 해 오는것이 그 첫번째 단계 입니다.\ 
-다음의 절차를 통해서 교육생들이 AWS DMS로 접근할 수 있는 Source DB인 PostgreSQL를 생성해 주세요.\ 
-강사용 EventEngine이나 AWS Account에서 아래를 수행!\
+이 워크샵은 On-premise로 가정한 별도 VPC 환경에서 PostgreSQL DB를 AWS DMS를 통해 마이그레이션 해 오는것이 그 첫번째 단계 입니다.<br> 
+다음의 절차를 통해서 교육생들이 AWS DMS로 접근할 수 있는 Source DB인 PostgreSQL를 생성해 주세요.<br> 
+강사용 EventEngine이나 AWS Account에서 아래를 수행!<br>
 옵션 1. 이 페이지에서 Instructor PreLab을 수행하시면 됩니다.\
 [*Instructor PreLab 방문*](https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US/400/401/410-pre-lab-1)\
 옵션 2. 아래의 yaml파일을 다운로드하여 강사용 AWS Account에서 CloudFormation을 수행하시면 됩니다.\
