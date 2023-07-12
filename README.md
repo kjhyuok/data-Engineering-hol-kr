@@ -21,6 +21,17 @@
 [_**0.Introduction**_](detail/introduction.md) 에서는 단계별 실습에서 진행하는 각 Architecture에 대해 기술합니다.\
 [_**1.Lab: Setting Lab Account**_](detail/1.lab-settinglabaccount.md) 에서는 AWS에서 제공하는 실습용 Account를 Setting하고 [AWS Web Console](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB\_us-west-2\_fb2cdefd242e800d\&client\_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas\&forceMobileApp=0\&code\_challenge=\_L\_92-86xjANu4YyDZwXJj--tPwQK81v471vY05aM08\&code\_challenge\_method=SHA-256)에 접근하여 실습을 할 수 있는 환경을 준비합니다.
 
+#### AWS 강사님의 준비사항(중요!)
+
+이 워크샵은 On-premise로 가정한 별도 VPC 환경에서 PostgreSQL DB를 AWS DMS를 통해 마이그레이션 해 오는것이 그 첫번째 단계 입니다.\ 
+다음의 절차를 통해서 교육생들이 AWS DMS로 접근할 수 있는 Source DB인 PostgreSQL를 생성해 주세요.\ 
+강사용 EventEngine이나 AWS Account에서 아래를 수행!\
+옵션 1. 이 페이지에서 Instructor PreLab을 수행하시면 됩니다.\
+[*Instructor PreLab 방문*](https://catalog.us-east-1.prod.workshops.aws/workshops/976050cc-0606-4b23-b49f-ca7b8ac4b153/en-US/400/401/410-pre-lab-1)\
+옵션 2. 아래의 yaml파일을 다운로드하여 강사용 AWS Account에서 CloudFormation을 수행하시면 됩니다.\
+[*Instructor CloudFormation Download*](https://s3.amazonaws.com/aws-dataengineering-day.workshop.aws/DMSLab_instructor_CFN.yaml)
+
+
 ## Info
 > 본 Workshop에 오류가 있거나 AWS Console UI가 업데이트 되어 심하게 실습과 매칭되지 않는 부분이 있으면 작성자에게 메일 부탁드립니다.
 > kjhyuok@amazon.com(JongHyuok, Kim)
